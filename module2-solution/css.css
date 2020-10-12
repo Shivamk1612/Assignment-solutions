@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: MV Boli;
+	background-color: black;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+div{
+	position: relative;
+}
+p{
+	margin: 15px;
+	background-color: maroon;
+	color: white;
+}
+.p1{
+	float: right;
+	height: 30px;
+	width: 150px;
+	background-color: orange;
+	text-align: center; 
+	font-size: 125%;	
+}
+.p2{
+	padding: 15px;
+	padding-top: 45px;
+}
+#name1{
+	background-color: green;
+}
+#name2{
+	background-color: pink;
+	color: black;
+}
+@media(min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33.33%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		width: 50%;
+	}
+	.col-md-12{
+		float: left;
+		width: 100%;
+	}
+}
+@media(max-width: 767px){
+	.col-sm-12{
+		float: left;
+		width: 100%;
+	}
+}
